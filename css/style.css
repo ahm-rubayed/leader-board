@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    background-color: #fff;
+    max-width: 80%;
+    margin: auto;
+    padding: 3rem;
+}
+
+.header-title {
+    color: #562EFF;
+    margin: 2rem 0;
+}
+
+hr {
+    border: 1px solid #D1D1D1;
+    margin-top: 1.5rem;
+}
+
+/* Top players and blogs */
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 2rem;
+}
+
+.player-info {
+    display: flex;
+    align-items: center;
+}
+
+.player-info img {
+    width: 56px;
+    height: 56px;
+}
+
+.player-info h3 {
+    margin-left: 1.2rem;
+    font-size: 1.2rem;
+}
+
+/* Blog  */
+.blog-info article{
+    display: flex;
+}
+
+.blog-thumbline img {
+    width: 224px;
+    height: 127px;
+}
+
+.blog-content {
+    margin-left: 1rem;
+}
+
+.blog-content h3 {
+    font-size: 1.8rem;
+}
+
+.blog-content p {
+    color: #9F9F9F;
+    font-size: 1rem;
+}
+
+.blog-content p a{
+    color: #562EFF;
+}
