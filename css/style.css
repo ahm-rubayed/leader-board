@@ -17,8 +17,9 @@ img {
 .container {
     background-color: #fff;
     max-width: 80%;
-    margin: auto;
+    margin: 1rem auto;
     padding: 3rem;
+    border-radius: 5px;
 }
 
 .header-title {
@@ -54,7 +55,12 @@ hr {
 }
 
 /* Blog  */
-.blog-info article{
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+.blog{
     display: flex;
 }
 
@@ -68,7 +74,7 @@ hr {
 }
 
 .blog-content h3 {
-    font-size: 1.8rem;
+    font-size: 1.2rem;
 }
 
 .blog-content p {
